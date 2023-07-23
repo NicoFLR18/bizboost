@@ -3,53 +3,292 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>pseudocodigo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier+Prime" />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Bizboost</title>
   </head>
   <body>
-    <!-- Hero -->
-    <!--
-      *<section> como un contenedor de hero 
-      *<header> para el logo, navegacion y red social 
-      *<main> contenedor h1, <article> <p>
-      *<button> "get started"
-      *<figure> link del video
-      
-    -->
-    <!-- Our Services -->
-    <!-- 
-      *Crear contenedor <services-container> 
-      *Crear contenedor <nav-flex>
-      *Crear <figure> dentro una img 
-      *<main> contenedor h5,h2 <article> <p>
-      *<button> "get started" 
-      *Crear <box> dentro creamos un <ul><li>*4 y usamos flexbox para darle alineacion horizontal
-    -->
-    <!-- Feature Content-->
-    <!-- 
-      *Crear contenedor "feature-container"
-      *Crear contenedor "feature-heading-container"
-      *Crear h5 "WHAT WE DO"
-      *Crear h2 "Featured Content"
-      *Crear <box>*3 dentro img, h3, <p>, <a> "View More"
-    -->
-
+    <!-- hero -->
+    <section>
+      <header>
+        <a href="/" class="logo">BizBoost</a>
+        <nav>
+          <ul class="nav">
+            <li>
+              <a href="#" class="selection">Home</a>
+            </li>
+            <li>
+              <a href="#">
+                Templates
+                <img src="./img/expand-arrow.svg" alt="" />
+              </a>
+              <ul class="ul-nav">
+                <li>
+                  <a href="">Right Sidebar</a>
+                </li>
+                <li>
+                  <a href="">No Sibebar</a>
+                </li>
+                <li>
+                  <a href="">Style Guide</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="social">
+          <li>
+            <div class="circle"></div>
+            <a href="https://facebook.com/codigoingenierooficial" target="_blank">
+              <img src="./img/facebook.png" alt="Facebook" />
+            </a>
+          </li>
+          <li>
+            <div class="circle"></div>
+            <a href="https://twitter.com/CodigoIngenierooficial" target="_blank">
+              <img src="./img/twitter.png" alt="Twitter" />
+            </a>
+          </li>
+          <li>
+            <div class="circle"></div>
+            <a href="https://www.linkendin.com/codigoingenierooficial/" target="_blank">
+              <img src="./img/linkedin.png" alt="Linkendin" />
+            </a>
+          </li>
+        </ul>
+      </header>
+      <main class="main-box">
+        <h1>We <span class="lowlight">build</span> digital experiences</h1>
+        <article>
+          <p>We collaborate with smart and creative people to build awesome WordPress Full Site Editing Themes.</p>
+        </article>
+        <button class="cta">Get Started</button>
+      </main>
+      <section class="video-box">
+        <figure>
+          <video
+            width="100%"
+            controls
+            loop
+            src="https://fse.catchthemes.com/bizboost-free/wp-content/themes/bizboost/assets/video/video-featured.mp4"
+          ></video>
+        </figure>
+      </section>
+    </section>
+    <div class="services-container">
+      <div class="nav-flex">
+        <figure><img src="./img/Figure ⏵ hero-content.png.png" alt="computador"></figure>
+      </div>
+      <div class="main-container">
+        <h6>OUR SERVICES</h6>
+        <h2>We Solve Creative Delusions Efficiently</h2>
+        <article>
+          <p>The display employs new techniques and technology to
+            precisely follow the curves of the design, all the way to the
+            elegantly rounded corners.
+          </p>
+        </article>
+        <button class="cta">get started</button>
+      </div>
+      <div class="box">
+        <ul>
+          <li>
+            <h2>95</h2>
+            <h6>projects completed</h6>
+          </li>
+          <li>
+            <h2>2310</h2>
+            <h6>Happy clients</h6>
+          </li>
+          <li>
+            <h2>215</h2>
+            <h6>Hour Spents</h6>
+          </li>
+          <li>
+            <h2>479</h2>
+            <h6>Members</h6>
+          </li>
+        </ul>
+      </div>
+    </div>
+        <!-- Our Services -->
+  <!-- 
+    *Crear contenedor <services-container> 
+    *Crear contenedor <nav-flex>
+    *Crear <figure> dentro una img 
+    *<main> contenedor h5,h2 <article> <p>
+    *<button> "get started" 
+    *Crear <box> dentro creamos un <ul><li>*4 y usamos flexbox para darle alineacion horizontal
+  -->
+    <div class="feature-container">
+      <div class="feature-heading-container">
+        <h6>WHAT WE DO</h6>
+        <h2>Featured content</h2>
+      </div>
+      <div class="box">
+        <ul>
+          <li>
+            <img src="./img/featured-content-1.jpg (1).png" alt="lampara">
+            <h2>Creative Lights</h2>
+            <p>
+              Lorem ipsum dolor sit amet
+              consecte tur adipiscing elit integer
+              fermentum in orci lorem ipsum.
+            </p>
+            <p>
+              <a href="#">View More</a>
+            </p>
+          </li>
+          <li>
+            <img src="./img/Figure.png" alt="celular">
+            <h2>Mobile Photography</h2>
+            <p>
+              Lorem ipsum dolor sit amet
+              consecte tur adipiscing elit integer
+              fermentum in orci lorem ipsum.
+            </p>
+            <p>
+              <a href="#">View More</a>
+          </li>
+          <li>
+            <img src="./img/Figure (1).png" alt="camera">
+            <h2>Vintage Camara</h2>
+            <p>
+              Lorem ipsum dolor sit amet
+              consecte tur adipiscing elit integer
+              fermentum in orci lorem ipsum.
+            </p>
+            <p>
+              <a href="#">View More</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+<!-- Feature Content-->
+  <!-- 
+    *Crear contenedor "feature-container"
+    *Crear contenedor "feature-heading-container"
+    *Crear h5 "WHAT WE DO"
+    *Crear h2 "Featured Content"
+    *Crear <box>*3 dentro img, h3, <p>, <a> "View More"
+  -->
+    <div class="promotional-container">
+      <div class="promotional-heading-container">
+        <h6>PROMOTIONAL CONTACT</h6>
+        <h2>Ready To Work Together?</h2>
+        <button class="cta">contact us</button>
+      </div>
+    </div>
     <!-- Promotional Contact-->
-    <!--
-      *Crear contenedor "promotional-container"
-      *Crear contenedor "promotional-heading-container"
-      *Crear h5 "PROMOTIONAL CONTACT"
-      *Crear h2 "Ready To Work Together?"  
-      *<button> "Contact Us"
-    -->
+  <!--
+    *Crear contenedor "promotional-container"
+    *Crear contenedor "promotional-heading-container"
+    *Crear h5 "PROMOTIONAL CONTACT"
+    *Crear h2 "Ready To Work Together?"  
+    *<button> "Contact Us"
+  -->
+    <div class="footer-section">
+      <div class="inner-container">
+        <div class="footer-menu">
+          <div class="flex-container">
+            <p>
+              <span class="logo">Bizboost</span>
+              <h2>Newsletter Signup</h2>
+              <address>
+                <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+                <p>Address: 123 Main Street, City, Country</p>
+              </address>
+              <button class="cta">subscripcion</button>
+            </p>
+          </div>
+          <div class="footer-menu-block">
+            <h2>Quick links</h2>
+            <ul>
+              <li>
+                <h6>Home</h6>
+              </li>
+              <li>
+                <h6>Templates</h6>
+              </li>
+              <li>
+                <h6>Blog</h6>
+              </li>
+              <li>
+                <h6>Contact</h6>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-menu-block">
+            <h2>Customer Support</h2>
+            <ul>
+              <li>
+                <h6>Support</h6>
+              </li>
+              <li>
+                <h6>Documentation</h6>
+              </li>
+              <li>
+                <h6>Customization</h6>
+              </li>
+              <li>
+                <h6>FAQ</h6>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-social">
+      <div>
+        <p>Copyright © 2023 BizBoost by Catch Themes</p>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <a href="https://facebook.com/codigoingenierooficial" target="_blank">
+            <img src="./img/Item ⏵ Link.svg" alt="facebook">
+          </li>
+          <li>
+            <a href="https://twitter.com/CodigoIngenier" target="_blank">
+              <img src="./img/Item ⏵ Link (1).svg" alt="twitter">
+          </li>
+          <li>
+            <a href="https://co.linkedin.com/codigoingenierooficial" target="_blank">
+              <img src="./img/SVG.svg" alt="linkedin">
+          </li>
+          <li>
+            <a href="https://co.linkedin.com/codigoingenierooficial" target="_blank">
+              <img src="./img/SVG (1).svg" alt="youtube">
+          </li>
+          <li>
+            <a href="https://co.linkedin.com/codigoingenierooficial" target="_blank">
+              <img src="./img/Item ⏵ Link (2).svg" alt="instagram">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
 
-    <!-- Footer -->
-    <!-- 
-      *<box> *3 flexbox
-      *<addres> e-mail
-      *<button> subscripcion
-      *Crear contenedor "copyright"
-      *Crear contenedor "social"
-      *flexbox redes sociales   
-    -->
+  
+  <!-- Footer -->
+  <!-- 
+    *<box> *3 flexbox
+    *<addres> e-mail
+    *<button> subscripcion
+    *Crear contenedor "copyright"
+    *Crear contenedor "social"
+    *flexbox redes sociales   
+  -->
   </body>
 </html>
+
+
