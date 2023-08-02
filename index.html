@@ -12,6 +12,7 @@
   </head>
   <body>
     <section class="blocks">
+      <!-- Hero Section -->
       <section class="hero">
         <header>
           <div class="logo">
@@ -46,12 +47,13 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </nav>
+
           <div class="social">
             <ul>
               <li>
                 <div class="circle"></div>
                 <a href="#">
-                  <img src="./src/img/facebook.png" alt="facebook" />
+                  <img src="./src/img/facebook.png" alt="fb" />
                 </a>
               </li>
               <li>
@@ -63,7 +65,7 @@
               <li>
                 <div class="circle"></div>
                 <a href="#">
-                  <img src="./src/img/linkedin.png" alt="linkedIn" />
+                  <img src="./src/img/linkedin.png" alt="linkedin" />
                 </a>
               </li>
             </ul>
@@ -98,10 +100,16 @@
           </div>
         </section>
       </section>
+
       <!-- Our Services Section -->
       <section class="our-services">
         <div class="services-figure">
-          <img src="./src/img/Figure ⏵ hero-content.png.png" alt="computador" />
+          <figure>
+            <img
+              src="./src/img/Figure ⏵ hero-content.png.png"
+              alt="hero-content"
+            />
+          </figure>
         </div>
         <div class="our-services-layout">
           <div class="headings">
@@ -113,17 +121,19 @@
             follow the curves of the design, all the way to the elegantly
             rounded corners.
           </p>
+
           <div class="our-services-cta">
-            <a href="#" class="gradient-button">Get Started</a>
+            <a href="#" class="gradient-button">get started</a>
           </div>
         </div>
       </section>
+
       <section class="big-numbers">
         <div class="number-box">
           <span class="number">
             <h3>95</h3>
           </span>
-          <p>Projects Completed</p>
+          <p>Proyects Completed</p>
         </div>
         <div class="number-box">
           <span class="number">
@@ -135,7 +145,7 @@
           <span class="number">
             <h3>215</h3>
           </span>
-          <p>Hours Spents</p>
+          <p>Hours Spent</p>
         </div>
         <div class="number-box">
           <span class="number">
@@ -144,51 +154,151 @@
           <p>Members</p>
         </div>
       </section>
-      <!--Featured Container-->
-      <section class="feature-container-layout">
-        <div class="feature-heading-container">
-          <h6>WHAT WE DO</h6>
-          <h2>Featured content</h2>
+
+      <!-- Featured Content -->
+      <section class="featured-content-layout">
+        <div class="featured-content">
+          <h6>What We Do</h6>
+          <h2>Featured Content</h2>
         </div>
-        <section class="box">
-          <div class="boxes">
-            <img src="./src/img/featured-content-1.jpg (1).png" alt="lampara" />
-            <h2>Creative Lights</h2>
+        <div class="boxes-container">
+          <div class="box">
+            <figure>
+              <img
+                src="./src/img/featured-content-1.jpg (1).png"
+                alt="Lamparas"
+              />
+            </figure>
+            <h4>Creative Lights</h4>
             <p>
               Lorem ipsum dolor sit amet consecte tur adipiscing elit integer
               fermentum in orci lorem ipsum.
             </p>
-            <a href="#"
-              >View More
-              <hr width="95px" />
+            <a href="View More"
+              >View more
+              <hr />
             </a>
-            <div class="boxes">
+          </div>
+
+          <div class="box">
+            <figure>
+              <img src="./src/img/Figure (1).png" alt="camara" />
+            </figure>
+            <h4>Mobile Photography</h4>
+            <p>
+              Lorem ipsum dolor sit amet consecte tur adipiscing elit integer
+              fermentum in orci lorem ipsum.
+            </p>
+            <a href="View More"
+              >View more
+              <hr />
+            </a>
+          </div>
+
+          <div class="box">
+            <figure>
               <img src="./src/img/Figure.png" alt="celular" />
-              <h2>Mobile Photography</h2>
-              <p>
-                Lorem ipsum dolor sit amet consecte tur adipiscing elit integer
-                fermentum in orci lorem ipsum.
-              </p>
-              <a href="#"
-                >View More
-                <hr width="95px" />
-              </a>
-            </div>
-            <div class="boxes">
-              <img src="./src/img/Figure (1).png" alt="camera" />
-              <h2>Vintage Camara</h2>
-              <p>
-                Lorem ipsum dolor sit amet consecte tur adipiscing elit integer
-                fermentum in orci lorem ipsum.
-              </p>
-              <a href="#"
-                >View More
-                <hr width="95px" />
-              </a>
+            </figure>
+            <h4>Vintage Camera</h4>
+            <p>
+              Lorem ipsum dolor sit amet consecte tur adipiscing elit integer
+              fermentum in orci lorem ipsum.
+            </p>
+            <a href="View More"
+              >View more
+              <hr />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Promotional Contact -->
+
+      <section class="promotional-contact-layout">
+        <span class="overlay"></span>
+        <img class="rectangle" src="./src/img/striped-bg.png" alt="image" />
+        <div class="promotional-contact">
+          <h6>Promotional Content</h6>
+          <h2>Ready To Work Together?</h2>
+          <a href="#" class="gradient-button">Contact Us</a>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer-content">
+          <div class="newsletter">
+            <a href="/">
+              <h4>BizBoost</h4>
+            </a>
+            <div class="newsletter-signup">
+              <h5>newsletter-signup</h5>
+              <div class="cta">
+                <input type="text" name="email" id="email" />
+                <a href="#" class="gradient-button">Subscribe</a>
+              </div>
             </div>
           </div>
-        </section>
-      </section>
+          <div class="links">
+            <div>
+              <h5>Quick Links</h5>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Templates</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div>
+              <h5>Customer Support</h5>
+              <ul>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Customization</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          Copyright © 2023 BizBoost by Catch Themes
+
+          <div class="social">
+            <ul>
+              <li>
+                <div class="circle"></div>
+                <a href="#">
+                  <img src="./src/img/facebook.png" alt="facebook" />
+                </a>
+              </li>
+              <li>
+                <div class="circle"></div>
+                <a href="#">
+                  <img src="./src/img/twitter.png" alt="twitter" />
+                </a>
+              </li>
+              <li>
+                <div class="circle"></div>
+                <a href="#">
+                  <img src="./src/img/linkedin.png" alt="linkedIn" />
+                </a>
+              </li>
+              <li>
+                <div class="circle"></div>
+                <a href="#">
+                  <img src="./src/img/youtube.png" alt="youtube" />
+                </a>
+              </li>
+              <li>
+                <div class="circle"></div>
+                <a href="#">
+                  <img src="./src/img/instagram.png" alt="instagram" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </section>
   </body>
 </html>
