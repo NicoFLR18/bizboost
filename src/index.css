@@ -320,6 +320,7 @@ main > * {
 
 .featured-content {
   text-align: center;
+  margin-top: -20px;
 }
 
 /*.featured-content h2 {
@@ -381,10 +382,13 @@ main > * {
   text-align: center;
   padding: 74px 50px;
   position: relative;
+  margin-top: 105px;
+  margin-bottom: 30px;
 }
 
 .promotional-container-layout img {
   width: 100%;
+  height: 100%;
   position: absolute;
   left: 0;
   top: 0;
