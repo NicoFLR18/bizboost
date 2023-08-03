@@ -337,7 +337,7 @@ main > * {
   vertical-align: bottom;
 }
 
-.box:hover img {
+.box :hover img {
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
   opacity: 0.5;
@@ -740,5 +740,12 @@ footer:last-child {
 
   .footer-social ul {
     margin: 0;
+  }
+
+  .to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 70px;
+    z-index: 999;
   }
 }
