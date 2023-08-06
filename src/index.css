@@ -513,6 +513,13 @@ footer:last-child {
   padding: 20px 30px;
 }
 
+.to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 15px;
+  z-index: 999;
+}
+
 /*=======================================
     TABLET & DESKTOP BREAKPOINTS
 =========================================*/
@@ -745,7 +752,7 @@ footer:last-child {
   .to-top {
     position: fixed;
     right: 20px;
-    bottom: 70px;
+    bottom: 15px;
     z-index: 999;
   }
 }
